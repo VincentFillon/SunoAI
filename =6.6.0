@@ -1,0 +1,21 @@
+Collecting PySide6
+  Downloading pyside6-6.11.0-cp310-abi3-win_amd64.whl.metadata (5.5 kB)
+Collecting shiboken6==6.11.0 (from PySide6)
+  Downloading shiboken6-6.11.0-cp310-abi3-win_amd64.whl.metadata (2.5 kB)
+Collecting PySide6_Essentials==6.11.0 (from PySide6)
+  Downloading pyside6_essentials-6.11.0-cp310-abi3-win_amd64.whl.metadata (3.8 kB)
+Collecting PySide6_Addons==6.11.0 (from PySide6)
+  Downloading pyside6_addons-6.11.0-cp310-abi3-win_amd64.whl.metadata (4.2 kB)
+Downloading pyside6-6.11.0-cp310-abi3-win_amd64.whl (577 kB)
+   --------------------------------------- 578.0/578.0 kB 11.5 MB/s eta 0:00:00
+Downloading pyside6_addons-6.11.0-cp310-abi3-win_amd64.whl (168.7 MB)
+   --------------------------------------- 168.7/168.7 MB 54.0 MB/s eta 0:00:00
+Downloading pyside6_essentials-6.11.0-cp310-abi3-win_amd64.whl (75.8 MB)
+   ---------------------------------------- 75.8/75.8 MB 51.2 MB/s eta 0:00:00
+Downloading shiboken6-6.11.0-cp310-abi3-win_amd64.whl (1.2 MB)
+   ---------------------------------------- 1.2/1.2 MB 37.1 MB/s eta 0:00:00
+Installing collected packages: shiboken6, PySide6_Essentials, PySide6_Addons, PySide6
+Successfully installed PySide6-6.11.0 PySide6_Addons-6.11.0 PySide6_Essentials-6.11.0 shiboken6-6.11.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: C:\Users\vfillon\AppData\Local\Programs\Python\Python313\python.exe -m pip install --upgrade pip

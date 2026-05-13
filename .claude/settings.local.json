@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(grep -ni \"todo\\\\|fixme\\\\|hack\\\\|bug\\\\|xxx\" \"c:/Users/vfillon/dev/Tools/other/SunoAI/\"*.py)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''app.py''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\(''c:/Users/vfillon/dev/Tools/other/SunoAI/app.py''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")",
+      "Bash(py -3 -c \"import ast; ast.parse\\(open\\(''c:/Users/vfillon/dev/Tools/other/SunoAI/app.py''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")",
+      "Bash(py -3 -c \"import ast; ast.parse\\(open\\(''c:/Users/vfillon/dev/Tools/other/SunoAI/app.py'', encoding=''utf-8''\\).read\\(\\)\\); print\\(''Syntax OK''\\)\")",
+      "Bash(pip show:*)",
+      "Bash(py -3 --version)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('core.py'\\).read\\(\\)\\); print\\('core.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('providers.py'\\).read\\(\\)\\); print\\('providers.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('app.py'\\).read\\(\\)\\); print\\('app.py OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('c:/Users/vfillon/dev/Tools/other/SunoAI/core.py'\\).read\\(\\)\\); print\\('core.py OK'\\)\")",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('c:/Users/vfillon/dev/Tools/other/SunoAI/core.py'\\).read\\(\\)\\); print\\('core.py OK'\\)\")",
+      "Bash(where py:*)",
+      "Bash(py --version)",
+      "Bash(py -c \"import ast; ast.parse\\(open\\('c:/Users/vfillon/dev/Tools/other/SunoAI/core.py'\\).read\\(\\)\\); print\\('core.py OK'\\)\")",
+      "Bash(py -c \"import ast; ast.parse\\(open\\('c:/Users/vfillon/dev/Tools/other/SunoAI/providers.py'\\).read\\(\\)\\); print\\('providers.py OK'\\)\")",
+      "Bash(py -c \"import ast; ast.parse\\(open\\('c:/Users/vfillon/dev/Tools/other/SunoAI/app.py'\\).read\\(\\)\\); print\\('app.py OK'\\)\")",
+      "Bash(py -c \"import ast; ast.parse\\(open\\('c:/Users/vfillon/dev/Tools/other/SunoAI/app.py', encoding='utf-8'\\).read\\(\\)\\); print\\('app.py OK'\\)\")",
+      "Bash(py -c \"import ast; ast.parse\\(open\\('c:/Users/vfillon/dev/Tools/other/SunoAI/core.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(findstr /n \"^import ^from\" \"C:\\\\Users\\\\vfillon\\\\dev\\\\Tools\\\\other\\\\SunoAI\\\\prompt_generator.py\")",
+      "Bash(python -m py_compile providers.py core.py prompts.py history_index.py app.py)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(where python *)",
+      "Bash(\"C:\\\\Users\\\\vfillon\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -m py_compile providers.py core.py prompts.py history_index.py app.py)",
+      "Bash(\"C:\\\\Users\\\\vfillon\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import providers, prompts, core, history_index; print\\('non-Qt imports OK'\\)\")",
+      "Bash(\"C:\\\\Users\\\\vfillon\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import app; print\\('app imports OK'\\)\")"
+    ]
+  }
+}
